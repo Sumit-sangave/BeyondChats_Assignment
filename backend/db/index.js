@@ -9,6 +9,13 @@ const pool = new Pool({
   host: process.env.DB_HOST,
   database: process.env.DB_NAME,
   port: process.env.DB_PORT,
+
+  
+  // 🔴 REQUIRED FOR RENDER POSTGRES
+  ssl: {
+    require: true,
+    rejectUnauthorized: false,
+  },
 });
 
 module.exports = pool;
