@@ -74,39 +74,13 @@ Start the backend server:
 
 node server.js
 
+url : https://beyondchats-assignment-ev5q.onrender.com
+
 ### Frontend Setup
 cd ../frontend
 npm install
 npm start
 
+url : https://beyond-chats-assignment-nu-rouge.vercel.app/
+
 ### Data Flow / Architecture Diagram
-┌──────────────┐
-│ BeyondChats  │
-│ Blog Website │
-└──────┬───────┘
-       │ (Scraping)
-       ▼
-┌──────────────┐
-│ Puppeteer    │
-│ Scraper      │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ PostgreSQL   │
-│ Database     │
-└──────┬───────┘
-       │
-       │ API (Express)
-       ▼
-┌──────────────┐
-│ Backend API  │
-│ (Node.js)    │
-└──────┬───────┘
-       │
-       │ Axios
-       ▼
-┌──────────────┐
-│ React        │
-│ Frontend UI  │
-└──────────────┘
