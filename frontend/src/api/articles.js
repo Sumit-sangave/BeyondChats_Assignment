@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "https://beyondchats-assignment-ev5q.onrender.com/api";
+const API_BASE = process.env.REACT_APP_API_BASE + "/articles";
 
 export const fetchArticles = async () => {
   const res = await axios.get(`${API_BASE}/articles`);
