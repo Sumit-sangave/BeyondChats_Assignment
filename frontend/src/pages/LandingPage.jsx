@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/landing.css";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   const navigate = useNavigate();
@@ -160,9 +161,9 @@ export default function LandingPage() {
           <div className="footer-section">
             <h4>Connect</h4>
             <div className="social-links">
-              <a href="#">Twitter</a>
-              <a href="#">GitHub</a>
-              <a href="#">LinkedIn</a>
+              <Link to="/login">Twitter</Link>
+              <Link to="/login">GitHub</Link>
+              <Link to="/login">LinkedIn</Link>
             </div>
           </div>
         </div>
