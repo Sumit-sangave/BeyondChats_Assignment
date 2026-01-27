@@ -84,3 +84,7 @@ npm start
 url : https://beyond-chats-assignment-nu-rouge.vercel.app/
 
 ### Data Flow / Architecture Diagram
+
+<img width="1024" height="1024" alt="DFD" src="https://github.com/user-attachments/assets/7d0dbcc9-9730-40d5-86d9-94e36af61897" />
+
+
